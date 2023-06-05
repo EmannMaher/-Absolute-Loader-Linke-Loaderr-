@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+
+<TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="875.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loaderlinker.HelloController">
+  <columns>
+    <TableColumn fx:id="Address" prefWidth="75.0" text="Addresses" />
+    <TableColumn fx:id="col_0" prefWidth="50.0" text="0" />
+      <TableColumn fx:id="col_1" prefWidth="50.0" text="1" />
+      <TableColumn fx:id="col_2" prefWidth="50.0" text="2" />
+      <TableColumn fx:id="col_3" prefWidth="50.0" text="3" />
+      <TableColumn fx:id="col_4" prefWidth="50.0" text="4" />
+      <TableColumn fx:id="col_5" prefWidth="50.0" text="5" />
+      <TableColumn fx:id="col_6" prefWidth="50.0" text="6" />
+      <TableColumn fx:id="col_7" prefWidth="50.0" text="7" />
+      <TableColumn fx:id="col_8" prefWidth="50.0" text="8" />
+      <TableColumn fx:id="col_9" prefWidth="50.0" text="9" />
+      <TableColumn fx:id="col_10" prefWidth="50.0" text="A" />
+      <TableColumn fx:id="col_11" prefWidth="50.0" text="B" />
+      <TableColumn fx:id="col_12" prefWidth="50.0" text="C" />
+      <TableColumn fx:id="col_13" prefWidth="50.0" text="D" />
+      <TableColumn fx:id="col_14" prefWidth="50.0" text="E" />
+      <TableColumn fx:id="col_15" prefWidth="50.0" text="F" />
+  </columns>
+</TableView>
